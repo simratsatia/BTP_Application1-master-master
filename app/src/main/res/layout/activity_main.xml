@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.btp_application.MainActivity">
+
+
+    <Button
+        android:id="@+id/screen_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="137dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="39dp"
+        android:text="Screen Time" />
+
+    <Button
+        android:id="@+id/app_usage_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/screen_time"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="22dp"
+        android:text="App Usage Info" />
+
+    <Button
+        android:id="@+id/call_logs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_usage_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Call Log Duration " />
+
+    <Button
+        android:id="@+id/sms_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="frequency of SMS"
+        android:layout_below="@+id/call_logs"
+        android:layout_alignLeft="@+id/app_usage_info"
+        android:layout_alignStart="@+id/app_usage_info" />
+
+
+    <Button
+        android:id="@+id/data_usage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sms_count"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="Data Usage" />
+
+    <Button
+        android:id="@+id/set_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/data_usage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="Set Alarm" />
+
+    <Button
+        android:id="@+id/send_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_alarm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="Send Data" />
+
+
+</LinearLayout>
